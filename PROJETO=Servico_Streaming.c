@@ -8,7 +8,8 @@
 //>>>>  CLIENTE  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
 typedef struct S_CLIENT                                 //
 {                                                       //
-    char CPF[50];                                       //
+    char CPF[50];   
+    char c;                                    //
     char nome[50];                                      //
     char email[50];                                     //
     char telefone[16];                                  //
